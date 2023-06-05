@@ -1,2 +1,9 @@
-{
-    }
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/userservice
+    username: daniel
+    password: Daniel@123
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
